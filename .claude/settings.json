@@ -8,6 +8,6 @@
     }
   },
   "enabledPlugins": {
-    "academic-research-skills@academic-research-skills": true
+    "academic-research-skills@academic-research-skills": false
   }
 }
