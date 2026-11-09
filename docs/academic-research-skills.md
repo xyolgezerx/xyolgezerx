@@ -4,5 +4,3 @@
 
 - Kendi bilgisayarınızda: `/plugin` ile açıp kapatabilirsiniz.
 - Bulut oturumunda: `enabledPlugins` altındaki değeri `true` yapın; eklenti bir sonraki oturumda devreye girer.
-
-Bu eklenti OmniRoute ile ilgili değildir ve ona bağlı değildir. OmniRoute kurulumu için kök dizindeki `README.md` dosyasına bakın.
