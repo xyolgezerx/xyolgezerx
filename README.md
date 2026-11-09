@@ -1,5 +1,7 @@
 # xyolgezerx
 
+> Bu dosya yalnızca OmniRoute içindir. academic-research-skills eklentisi ayrıdır: `docs/academic-research-skills.md`.
+
 ## OmniRoute kurulumu
 
 [OmniRoute](https://github.com/cheaper-inference/OmniRoute), yapay zekâ isteklerini tek bir adresten birçok sağlayıcıya yönlendiren, kendi başına çalışan bir sunucudur (npm paketi: `omniroute`, MIT lisanslı). Bu adımlar kendi bilgisayarınız içindir ve OmniRoute 3.8.54 README'sine dayanır.
@@ -58,10 +60,3 @@ Claude Code gibi bir kodlama aracını bunun üzerinden kullanacaksanız daha fa
 - Bu ayar, Claude Code isteklerinizin tamamını OmniRoute üzerinden geçirir.
 - Kullandığınız her sağlayıcının kullanım koşullarına bakın. OmniRoute koşulları riskli bulduğu sağlayıcıları `tos: avoid` olarak işaretler ve otomatik yönlendirmeye almaz.
 - Projenin isteğe bağlı bir trafik şifresini çözme (MITM) özelliği vardır. Ne yaptığını bilmiyorsanız açmayın.
-
-## Claude Code eklentisi: academic-research-skills
-
-[academic-research-skills](https://github.com/Imbad0202/academic-research-skills) eklentisinin kaynağı `.claude/settings.json` içinde tanımlıdır, ancak eklenti varsayılan olarak **kapalıdır** (CC-BY-NC-4.0, ticari olmayan kullanım).
-
-- Kendi bilgisayarınızda: `/plugin` ile açıp kapatabilirsiniz.
-- Bulut oturumunda: `enabledPlugins` altındaki değeri `true` yapın; eklenti bir sonraki oturumda devreye girer.
